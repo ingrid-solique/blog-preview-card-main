@@ -45,19 +45,20 @@ body{
 
 .content{
     margin: 0 24px; 
-    text-align: left;
+    text-align: inline-start;
 }
 
 .content p{
-    text-align: left;
+    text-align: inline-start;
     font-size: 16px;
     font-weight: 500;
 }
 
 .content h1{
-    text-align: left;
-    font-size: 28px;
+    text-align: inline-start;
+    font-size: 24px;
     font-weight: bold;
+    font-weight: 900;
 }
 
 .content h1:hover{
@@ -106,7 +107,7 @@ body{
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
   .container{
     width: 327px;
     height: 501px; 
